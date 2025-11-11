@@ -1,7 +1,4 @@
-from carta import Carta
+from juego import Juego
 
-nuevacarta = Carta("Corazones", "As")
-print(nuevacarta)
-
-otracarta = Carta("Picas", "2")
-print(otracarta)
+nuevojuego = Juego()
+nuevojuego.jugar()
